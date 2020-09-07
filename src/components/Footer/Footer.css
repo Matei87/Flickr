@@ -1,0 +1,8 @@
+footer {
+    background: darkgoldenrod; height: 80px;
+    display: flex; justify-content: center; align-items: center;
+}
+
+footer span {
+color: darkgray;
+}

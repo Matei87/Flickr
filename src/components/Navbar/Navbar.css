@@ -1,0 +1,18 @@
+#navbar {
+    background: darkgoldenrod;
+    height: 100px;
+}
+#navbar .container, #navbar .container .row {
+    height: inherit
+}
+#navbar .col-md-12 {
+    display: flex; justify-content: center; align-items: center;
+}
+#navbar img {
+    height: 70px; width: 90px; border-radius: 5px;
+}
+#navbar p {
+    align-self: center; margin-left: auto;
+    margin-bottom: 0; color: var(--pinkish);
+    font-size: 1.5rem;
+}

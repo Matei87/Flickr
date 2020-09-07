@@ -1,0 +1,55 @@
+#pagination {
+    margin: 3rem 0;
+    display: flex; justify-content: center;
+}
+#pagination nav ul {
+    margin: 0;
+}
+#pagination .page-item {
+    margin: 0 .25rem;
+}
+#pagination .page-item .page-link {
+    border-radius: .25rem;
+    color: #fff;
+    background: darkgoldenrod; border-color: darkgoldenrod;
+}
+#pagination .page-item .page-link:hover {
+    color: #212529; cursor: pointer;
+    background: darkgray; border-color: darkgray;
+}
+#pagination .page-item.active .page-link {
+    background: darkgray; border-color: darkgray;
+    color: #212529; 
+}
+#pagination .page-item .page-link:focus {
+    box-shadow: none !important;
+}
+
+
+
+/* Extra small devices */
+@media (max-width: 575.98px) {
+    #pagination {
+        overflow: hidden !important;
+    }
+}
+  
+/* Small devices */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  
+}
+  
+/* Medium devices */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+   
+}
+  
+/* Large devices */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  
+}
+  
+/* Extra large devices */
+@media (min-width: 1200px) { 
+    
+}
