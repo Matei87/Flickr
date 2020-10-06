@@ -30,8 +30,7 @@ const App = () => {
           setInputValue('birde')
         } else {
           setLoading(true);
-          let key = 'cc574bf976807fdd2b94978282b7d48c';
-          let url = `https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=${key}&tags=${inputValue}&page=${startPage}&per_page=${endPage}&format=json&nojsoncallback=1`;
+          let url = `https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=${process.env.REACT_APP_API_KEY}&tags=${inputValue}&page=${startPage}&per_page=${endPage}&format=json&nojsoncallback=1`;
           const res = await axios.get(url);
           setTotalPages(res.data.photos.pages);
           setPicture(res.data.photos);
@@ -48,8 +47,7 @@ const App = () => {
   const nextPage = async (pageNumber) => {
     try {
       setLoading(true);
-      let key = 'cc574bf976807fdd2b94978282b7d48c';
-      let url = `https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=${key}&tags=${inputValue}&page=${pageNumber}&per_page=${endPage}&format=json&nojsoncallback=1`;
+      let url = `https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=${process.env.REACT_APP_API_KEY}&tags=${inputValue}&page=${pageNumber}&per_page=${endPage}&format=json&nojsoncallback=1`;
       const res = await axios.get(url);
       setPicture(res.data.photos);
       setStartPage(pageNumber);
