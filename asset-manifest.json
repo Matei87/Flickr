@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Flickr/static/css/main.d5ea0678.chunk.css",
-    "main.js": "/Flickr/static/js/main.a8340372.chunk.js",
-    "main.js.map": "/Flickr/static/js/main.a8340372.chunk.js.map",
+    "main.css": "/Flickr/static/css/main.2214570e.chunk.css",
+    "main.js": "/Flickr/static/js/main.ab71ee0f.chunk.js",
+    "main.js.map": "/Flickr/static/js/main.ab71ee0f.chunk.js.map",
     "runtime-main.js": "/Flickr/static/js/runtime-main.0074fc2e.js",
     "runtime-main.js.map": "/Flickr/static/js/runtime-main.0074fc2e.js.map",
-    "static/css/2.d9ad5f5c.chunk.css": "/Flickr/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.1665e35b.chunk.js": "/Flickr/static/js/2.1665e35b.chunk.js",
-    "static/js/2.1665e35b.chunk.js.map": "/Flickr/static/js/2.1665e35b.chunk.js.map",
+    "static/css/2.95258f03.chunk.css": "/Flickr/static/css/2.95258f03.chunk.css",
+    "static/js/2.b86cedc6.chunk.js": "/Flickr/static/js/2.b86cedc6.chunk.js",
+    "static/js/2.b86cedc6.chunk.js.map": "/Flickr/static/js/2.b86cedc6.chunk.js.map",
     "index.html": "/Flickr/index.html",
-    "precache-manifest.101d17002e90966cb564577618ef0a63.js": "/Flickr/precache-manifest.101d17002e90966cb564577618ef0a63.js",
+    "precache-manifest.0de1489531a2d665ea9cb2667f08df59.js": "/Flickr/precache-manifest.0de1489531a2d665ea9cb2667f08df59.js",
     "service-worker.js": "/Flickr/service-worker.js",
-    "static/css/2.d9ad5f5c.chunk.css.map": "/Flickr/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.d5ea0678.chunk.css.map": "/Flickr/static/css/main.d5ea0678.chunk.css.map",
-    "static/js/2.1665e35b.chunk.js.LICENSE.txt": "/Flickr/static/js/2.1665e35b.chunk.js.LICENSE.txt",
+    "static/css/2.95258f03.chunk.css.map": "/Flickr/static/css/2.95258f03.chunk.css.map",
+    "static/css/main.2214570e.chunk.css.map": "/Flickr/static/css/main.2214570e.chunk.css.map",
+    "static/js/2.b86cedc6.chunk.js.LICENSE.txt": "/Flickr/static/js/2.b86cedc6.chunk.js.LICENSE.txt",
     "static/media/logo.jpg": "/Flickr/static/media/logo.65cb554a.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.0074fc2e.js",
-    "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.1665e35b.chunk.js",
-    "static/css/main.d5ea0678.chunk.css",
-    "static/js/main.a8340372.chunk.js"
+    "static/css/2.95258f03.chunk.css",
+    "static/js/2.b86cedc6.chunk.js",
+    "static/css/main.2214570e.chunk.css",
+    "static/js/main.ab71ee0f.chunk.js"
   ]
 }
